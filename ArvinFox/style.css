@@ -3,14 +3,17 @@ body
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    margin-left: 25%;
-    margin-right: 25%;
+    text-align: center;
 }
 .front-end
 {
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
     
+}
+.main-div
+{
+    margin-left: 28%;
 }
 .main-link
 {
@@ -29,6 +32,7 @@ body
 }
 .container
 {
+    text-align: center;
     display: inline-block;
     border: 1px solid black;
     padding: 20px;
@@ -51,6 +55,7 @@ button
     font-family: 'Poppins', sans-serif;
     height: 40px;
     width: 110px;
+    cursor: pointer;
 }
 select
 {
@@ -61,4 +66,13 @@ input
 {
     display: inline-block;
     width: 100px;
+}
+.order
+{
+    text-align: center;
+}
+.order button
+{
+    font-weight: 600;
+    cursor: pointer;
 }
